@@ -1,5 +1,5 @@
-const mytest = {
-    "books" : [
+const booksData = {
+    "books": [
         {
             "title": "The Catcher in the Rye",
             "author": "J.D. Salinger",
@@ -22,7 +22,12 @@ const mytest = {
             "available": true
         }
     ]
-}
+};
+
+console.log(booksData.books[2]["title"], booksData.books[2].title,
+    booksData["books"][2]["title"]
+)
+console.log(booksData.books[2].genres[0])
 
 
 
