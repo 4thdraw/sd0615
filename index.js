@@ -1,5 +1,5 @@
-{
-    "books": [
+const mytest = {
+    "books" : [
         {
             "title": "The Catcher in the Rye",
             "author": "J.D. Salinger",
